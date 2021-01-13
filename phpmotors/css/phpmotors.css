@@ -13,4 +13,23 @@ nav {
 
 .navbar a {
     text-align: center;
+    text-decoration: none;
+    color: #3a3a3a;
 }
+
+main {
+    font-family: 'Bangers', cursive;
+    padding: 5px;
+    font-size: 2rem;
+}
+
+img {
+    margin: 2px;
+    padding: 2px;
+}
+
+footer {
+    font-size: 1rem;
+    text-align: center;
+}
+
