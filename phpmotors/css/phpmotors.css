@@ -1,3 +1,18 @@
+html {
+    background-image: url('../images/site/checkerboard.jpg');
+    background-size: 250px;
+    background-position: right top;
+}
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 5px solid #4c96d7;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #4c96d7;
+}
+
 nav {
    font-size: 2rem;
    background-color: #4c96d7;
