@@ -51,6 +51,10 @@ main .columns {
     font-size: 1.5rem;
 }
 
+main figure.delorean img {
+    width: 100%;
+}
+
 img {
     margin: 2px;
     padding: 2px;
