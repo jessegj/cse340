@@ -39,15 +39,28 @@ main {
 
 main .extras {
     float: left;
+    color: #4c96d7;
+}
+
+main ul li{
+   list-style-type: none;
 }
 
 main .columns {
     max-width: 50%;
+    font-size: 1.5rem;
 }
 
 img {
     margin: 2px;
     padding: 2px;
+}
+
+main button {
+    background-color: #4c96d7;
+    color: #ffffff;
+    border: solid #3a3a3a 1px;
+    float: left;
 }
 
 footer {
