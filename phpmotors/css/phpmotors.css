@@ -46,9 +46,13 @@ main ul li{
    list-style-type: none;
 }
 
-main .columns {
+main .upgrades {
     max-width: 50%;
     font-size: 1.5rem;
+}
+
+main .reviews {
+    max-width: 50%;
 }
 
 main figure.delorean img {
