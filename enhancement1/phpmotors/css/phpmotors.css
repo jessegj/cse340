@@ -1,0 +1,80 @@
+html {
+    background-image: url('../images/site/checkerboard.jpg');
+    background-size: 250px;
+    background-position: right top;
+}
+
+body {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 5px solid #4c96d7;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #4c96d7;
+}
+
+nav {
+   font-size: 2rem;
+   background-color: #4c96d7;
+   font-family: 'Bangers', cursive;
+   padding: .5rem;
+}
+
+.navbar a:hover {
+    background-color: #3a3a3a;
+    color: #a6cbeb;
+    padding: .5rem;
+}
+
+.navbar a {
+    text-align: center;
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+main {
+    font-family: 'Bangers', cursive;
+    padding: 5px;
+}
+
+main .extras {
+    float: left;
+    color: #4c96d7;
+}
+
+main ul li{
+   list-style-type: none;
+}
+
+main .upgrades {
+    max-width: 50%;
+    font-size: 1.5rem;
+}
+
+main .reviews {
+    max-width: 50%;
+}
+
+main figure.delorean img {
+    width: 100%;
+}
+
+img {
+    margin: 2px;
+    padding: 2px;
+}
+
+main button {
+    background-color: #4c96d7;
+    color: #ffffff;
+    border: solid #3a3a3a 1px;
+    float: left;
+}
+
+footer {
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+
