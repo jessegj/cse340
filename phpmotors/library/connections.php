@@ -2,6 +2,11 @@
 /*
 * Proxy connection to the phpmotors database 
 */
+
+require './connections.php';
+
+require_once './connections.php';
+
 function phpmotorsConnect(){
 
 $server = 'localhost';
@@ -20,5 +25,7 @@ if(is_object($link)){
  echo "It didn't work, error: " . $e->getMessage();
  }
 }
+
+phpmotorsConnect();
 
 ?>
