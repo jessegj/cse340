@@ -21,5 +21,4 @@ if(is_object($link)){
  }
 }
 
-phpmotorsConnect();
 ?>
